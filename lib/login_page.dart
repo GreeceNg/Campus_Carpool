@@ -14,29 +14,6 @@ class _LoginPageState extends State<LoginPage>{
 
   String _email, _password;
 
-  // void validateSubmit() async {
-  //   if (validationState() == true){ 
-  //     try{
-  //       FirebaseUser user = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password);
-  //       print('Sined in: ${user.uid}');
-  //     }
-  //     catch (e){
-  //       print('Error: $e');
-  //     }
-  //   }
-
-  // }
-
-  // bool validationState(){
-  //   final form = formKey.currentState;
-  //   form.save();
-  //   if (form.validate()){
-  //     //Navigator.of(context).pushNamed(HomePage.tag);
-  //     return true;
-  //   }
-  //   return false;
-  // }
-
   Future<void> signIn() async {
     final form = formKey.currentState;
   

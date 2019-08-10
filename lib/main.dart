@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iw_test4/login_page.dart';
 import 'package:iw_test4/home_page.dart';
 import 'package:iw_test4/main_page.dart';
+import 'package:iw_test4/filter_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget{
     LoginPage.tag: (context) => LoginPage(),
     HomePage.tag: (context) => HomePage(),
     MainPage.tag: (context) => MainPage(),
+    FilterPage.tag: (context) => FilterPage(),
   };
 
   @override 
